@@ -1,0 +1,63 @@
+@media (min-width: 1024px) {
+	body {
+		margin: 10vw;
+		align-items: center;
+		background-image: url("./../images/bg-pattern-top-desktop.svg"),
+		url("./../images/bg-pattern-bottom-desktop.svg");
+		background-repeat: no-repeat;
+		background-position: top left, bottom right;
+	}
+
+	.header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.header__text {
+		width: 40%;
+		margin-right: 10%;
+	}
+
+	.header__title,
+	.header__description {
+		text-align: left;
+	}
+
+	.rates__rate {
+		padding-left: 2rem;
+		padding-right: 3rem;
+	}
+
+	.rates__rate:nth-child(2) {
+		margin-left: 3rem;
+	}
+
+	.rates__rate:last-child {
+		margin-left: 6rem;
+	}
+
+	.rates__stars,
+	.rates__text {
+		display: inline;
+	}
+
+	.main {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.article {
+		width: 25%;
+		height: max-content;
+	}
+
+	.article:nth-child(2) {
+		margin-top: 2rem;
+	}
+
+	.article:last-child {
+		margin-top: 4rem;
+	}
+}

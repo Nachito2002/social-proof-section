@@ -10,6 +10,10 @@ body {
 	background-position: top left, bottom right;
 }
 
+.header {
+	margin-bottom: 3rem;
+}
+
 .header__title {
 	color: hsl(300, 43%, 22%);
 	text-align: center;
@@ -29,10 +33,6 @@ body {
 
 .rates__rate:not(:last-child) {
 	margin-bottom: 1rem;
-}
-
-.rates__rate:last-child {
-	margin-bottom: 3rem;
 }
 
 .rates__stars {
